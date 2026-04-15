@@ -1,11 +1,36 @@
 # 🚀 DevTask SaaS
 
-Backend de um sistema de automação de tarefas e agendamentos com integração n8n.
+Backend de um sistema de gestão de tarefas e agendamentos com automação integrada via n8n.
 
-## 💡 Diferencial
+---
 
-Este projeto não é apenas CRUD.
+## 💡 Sobre o projeto
 
-Ele integra automações reais com n8n, permitindo envio de eventos para fluxos externos (como lembretes, WhatsApp, etc).
+O DevTask é um backend que simula um SaaS real utilizado por empresas para:
 
+- organizar tarefas
+- gerenciar agendamentos
+- automatizar processos
 
+---
+
+## 🔥 Funcionalidades
+
+- 🔐 Autenticação com JWT
+- 📋 CRUD de tarefas por usuário
+- 📅 Sistema de agendamentos
+- 🔗 Integração com n8n (webhooks)
+- 🗄️ Banco PostgreSQL (Neon)
+
+---
+
+## ⚙️ Automação com n8n
+
+Sempre que um agendamento é criado, o sistema envia automaticamente os dados para o n8n:
+
+```json
+{
+  "client": "Maria",
+  "service": "Consulta",
+  "date": "2026-04-10T22:00:00.000Z"
+}
