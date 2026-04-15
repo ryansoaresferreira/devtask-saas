@@ -1,0 +1,8 @@
+### CREATE TASK
+POST http://localhost:3000/tasks
+Content-Type: application/json
+Authorization: Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzc1ODM4OTc2LCJleHAiOjE3NzU5MjUzNzZ9.oAqUaKbW4Js-5zuspnQcbR0UNIwWvuwV4wKEOfhayGc"
+
+{
+  "title": "Estudar REST Client"
+}
