@@ -34,3 +34,39 @@ Sempre que um agendamento é criado, o sistema envia automaticamente os dados pa
   "service": "Consulta",
   "date": "2026-04-10T22:00:00.000Z"
 }
+
+
+Isso permite criar automações como:
+
+⏰ Lembretes automáticos
+📲 Integração com WhatsApp
+🔁 Fluxos personalizados
+🧠 Tecnologias
+Node.js
+TypeScript
+Express
+Prisma ORM
+PostgreSQL
+Axios
+n8n
+📁 Estrutura
+backend/
+├── src/
+│   ├── config/
+│   ├── controllers/
+│   ├── services/
+│   ├── routes/
+│   ├── middlewares/
+│   ├── app.ts
+│   └── server.ts
+├── prisma/
+🚀 Como rodar
+cd backend
+npm install
+npx prisma migrate dev
+npm run dev
+🚧 Próximos passos
+🎨 Frontend em React
+📲 Integração com WhatsApp
+🤖 Automação com IA
+☁️ Deploy
